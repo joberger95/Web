@@ -35,3 +35,15 @@ p{
 li{
     font-style: italic;
 }
+
+.link{
+    text-decoration: none;
+    color: darkblue;
+    font-family: PoliceRoboto;
+    font-size: 1em;
+}
+.link:hover{
+    text-decoration: solid;
+    color: darkslateblue;
+    font-size: 1.2em;
+}
