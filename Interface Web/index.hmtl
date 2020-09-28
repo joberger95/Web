@@ -12,16 +12,18 @@
     </h1>
     <p>
         Celui-ci est en cours de construction.
+        <a href="#bas de page">Bas de page</a>
     </p>
     <p>
         Il faut que j'insère les onglets suivants:
     </p>
     <ul>
-        <li>A propos</li>
-        <li>Projets</li>
-        <li>Mon parcours</li>
-
+        <li>A propos <a href="pages/Propos.html">Propos</a></li>
+        <li>Projets <a href="pages/Projets.html">Projets</a></li>
+        <li>Mon parcours <a href="pages/Parcours.html">Parcours</P></a></li>
+        <li>Exemple de lien vers une autre page <a href="https://google.com">Google</a></li>
     </ul>
+    <p id="bas de page" </p>
 </body>
 
 </html>
