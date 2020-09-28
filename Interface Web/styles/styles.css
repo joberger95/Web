@@ -12,8 +12,8 @@
     text-align: center;
 }
 body{
-    /* background: url("/home/jordanberger/Git/Korra/Interface Web/images/electronic_diagram.png") fixed; */
-    
+    /* background: url("/home/jordanberger/Git/Korra/Interface Web/images/electronic_diagram.png") fixed;  */
+    opacity: 1;
 }
 .title{
     color: darkorange;
@@ -46,4 +46,21 @@ li{
     text-decoration: solid;
     color: darkslateblue;
     font-size: 1.2em;
+}
+
+
+.h1{
+    font-family: PoliceSpartan ;
+    font-size: 1em;
+    color: darkgray;
+}
+.headerText{
+    font-family: PoliceRoboto;
+    font-size: 1em;
+    color: darkgray;
+}
+.footerText{
+    font-family: PoliceRoboto;
+    font-size: 1em;
+    color: darkslategray;
 }
