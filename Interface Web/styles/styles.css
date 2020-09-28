@@ -1,8 +1,21 @@
+@font-face{
+    font-family: 'PoliceRoboto';
+    src: url("polices/roboto/RobotoCondensed-Regular.ttf");
+}
+@font-face{
+    font-family: 'PoliceSpartan';
+    src: url("polices/league-spartan/LeagueSpartan-Bold.otf");
+}
+
+
+
 .title{
     color: darkorange;
     font-size: 16;
+    font-family: PoliceRoboto, PoliceSpartan, sans-serif;
 }
-.mon{
+p{
     color: darkgoldenrod;
     font-weight: 100;
+    font-family: PoliceSpartan, sans-serif;
 }
