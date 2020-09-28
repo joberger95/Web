@@ -18,11 +18,18 @@
         Il faut que j'insère les onglets suivants:
     </p>
     <ul>
-        <li>A propos <a href="pages/Propos.html">Propos</a></li>
-        <li>Projets <a href="pages/Projets.html">Projets</a></li>
-        <li>Mon parcours <a href="pages/Parcours.html">Parcours</P></a></li>
-        <li>Exemple de lien vers une autre page <a href="https://google.com">Google</a></li>
+        <li>A propos <a href="pages/Propos.html" title="Page de présentation">Propos</a></li>
+        <li>Projets <a href="pages/Projets.html" title="Mes projets">Projets</a></li>
+        <li>Mon parcours <a href="pages/Parcours.html" title="Mon CV quoi">Parcours</P></a></li>
+        <li>Contact <a href="pages/Contact.html" title="Pour me contacter">Contacter</li>
+        <li>Exemple de lien vers une autre page <a href=" https://ecosia.com"
+                title="Aide à planter des arbres!">Ecosia</a></li>
     </ul>
+    <p>Insertion de la première figure </p>
+    <figure>
+        <img src="images/images.jpeg" alt="Image drôle pour Korra"
+            title="Elle n'a aucun rapport avec ce projet bien entendu" />
+    </figure>
     <p id="bas de page" </p>
 </body>
 
