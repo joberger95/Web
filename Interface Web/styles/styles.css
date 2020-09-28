@@ -8,14 +8,29 @@
 }
 
 
-
+*{
+    text-align: center;
+}
+body{
+    background-color: grey;
+}
 .title{
     color: darkorange;
     font-size: 16;
     font-family: PoliceRoboto, PoliceSpartan, sans-serif;
 }
+.logo{
+    color: darkgray;
+    font-size: 1.1em;
+    font-style: bold;
+    font-family: PoliceRoboto;
+    text-decoration: blink;
+}
 p{
     color: darkgoldenrod;
     font-weight: 100;
     font-family: PoliceSpartan, sans-serif;
+}
+li{
+    font-style: italic;
 }
