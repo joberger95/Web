@@ -29,6 +29,7 @@
     <figure>
         <img src="images/images.jpeg" alt="Image drôle pour Korra"
             title="Elle n'a aucun rapport avec ce projet bien entendu" />
+        <figcaption> Image POP de Korra, faudra donc choisir un logo un jour!</figcaption>
     </figure>
     <p id="bas de page" </p>
 </body>
