@@ -8,8 +8,8 @@
 </head>
 
 <body>
-    <h1>
-        Salut! Bienvenue sur mon site
+    <h1 class="title">
+        Salut! Bienvenue sur <span class="mon">mon</span> site
     </h1>
     <p>
         Celui-ci est en cours de construction.
