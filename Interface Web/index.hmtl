@@ -1,38 +1,53 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
 <head>
-    <meta charset="utf-8" />
-    <link rel="stylesheet" href="styles/styles.css" />
-    <title>Korra</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/styles.css">
+    <title>Korra -> A propos</title>
+    <div id="headsheet">
+        <img src="images/KORRA_logo.png" alt="Logo de Korra, à retravailler" title="Korra">
+        <p>Bienvenue sur mon site! Je suis Jordan BERGER, étudiant de l'école d'ingénieur Ynov Campus BORDEAUX.
+            <br />Actuellement en cursus Mastère Expert Mécatronique et à la recherche de toujours plus de
+            connaissances,
+            <br />je vous présente humblement mon site internet qui vous permettra de découvrir qui je suis et suivre
+            mes
+            projets en temps réel!</p>
+    </div>
 </head>
 
 <body>
-    <h1 class="title">
-        Salut! Bienvenue sur <span class="mon">mon</span> site
-    </h1>
-    <p>
-        Celui-ci est en cours de construction.
-        <a href="#bas de page">Bas de page</a>
-    </p>
-    <p>
-        Il faut que j'insère les onglets suivants:
-    </p>
-    <ul>
-        <li>A propos <a href="pages/Propos.html" title="Page de présentation">Propos</a></li>
-        <li>Projets <a href="pages/Projets.html" title="Mes projets">Projets</a></li>
-        <li>Mon parcours <a href="pages/Parcours.html" title="Mon CV quoi">Parcours </a></li>
-        <li>Contact <a href="pages/Contact.html" title="Pour me contacter">Me contacter</li>
-        <li>Exemple de lien vers une autre page <a class="link" href=" https://ecosia.com"
-                title="Aide à planter des arbres!">Ecosia</a></li>
-    </ul>
-    <p>Insertion de la première figure </p>
-    <figure>
-        <img src="images/images.jpeg" alt="Image drôle pour Korra"
-            title="Elle n'a aucun rapport avec ce projet bien entendu" />
-        <figcaption> Image POP de Korra, faudra donc <span class="logo">faire un logo un jour</span>!</figcaption>
-    </figure>
-    <p id="bas de page" </p>
+    <!-- Header-->
+    <div id="nav">
+        <header>
+            <nav>
+                <ul>
+                    <li><a href="#">Accueil</a></li>
+                    <li><a href="#">A propos</a></li>
+                    <li><a href="#">Parcours</a></li>
+                </ul>
+            </nav>
+        </header>
+    </div>
+    <!-- Body-->
+    <div class="aside">
+        <section>
+            <aside>
+                <h1>Projet Kernell</h1>
+                <p>Projet d'étude visant à créer une image système embarquée!</p>
+            </aside>
+            <aside>
+                <h1>Projet Deep-Learning</h1>
+                <p>Projet d'initiation à l'intelligence artificielle embarquée sur drône.</p>
+            </aside>
+        </section>
+    </div>
+    <!-- Footer-->
+    <footer>
+        <h1><a href="mailto:jordan.berger@ynov.com" title="Envoie-moi un petit message">Me contacter</a></h1>
+    </footer>
+
 </body>
 
 </html>
