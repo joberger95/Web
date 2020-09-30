@@ -19,9 +19,10 @@ Border vision
 /*General body parameter */
 body{
     background: fixed;
+    font-family: PoliceRoboto;
 }
 
-/*Header parameter*/
+/* Header */
 .div-categoryContainer{
     padding: 5% 5% 5% 20%;
     position: initial;
@@ -32,8 +33,9 @@ body{
 }
   
 .paragraph-right {
-  margin-top : 50px;
-  padding-left: 5%;
+    font-family: PoliceSpartan;
+    margin-top : 50px;
+    padding-left: 5%;
 }
 
 /* Navigation menu */
@@ -66,4 +68,9 @@ li a:hover:not(.active){
 }
 .active{
     background-color: darkorange;
+}
+
+/* Footer */
+footer h1{
+    float: left;
 }

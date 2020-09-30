@@ -36,11 +36,95 @@
             <li><a href="pages/Projets.html">Projets</a></li>
         </ul>
     </nav>
+
+
+    <section class="posts">
+        <article>
+            <header> <span class="date">Août 24, 2020</span>
+                <h2><a href="pages/Electronique/electronique.php">Electronique</a></h2>
+            </header> <a href="pages/Electronique/electronique.php" class="image fit"><img
+                    src="images/Electronique/carte-electronique.jpg" alt="img_electro" /></a>
+            <p>A la découverte de l'électronique, des circuits électroniques, de l'automatique... Bienvenue dans le
+                monde
+                microscopique ! Non il n'y a aucun risque ;).</p>
+            <ul class="actions special">
+            </ul>
+        </article>
+        <article>
+            <header> <span class="date">Août 22, 2020</span>
+                <h2><a href="pages/informatique/informatique.php">Informatique</a></h2>
+            </header> <a href="pages/informatique/informatique.php" class="image fit"><img
+                    src="images/Informatique/code_bg.jpg"> </a>
+        </article>
+    </section>
+    <section class="posts">
+        <article>
+            <header> <span class="date">Août 24, 2020</span>
+                <h2><a href="pages/Electronique/electronique.php">Electronique</a></h2>
+            </header> <a href="pages/Electronique/electronique.php" class="image fit"><img
+                    src="images/Electronique/carte-electronique.jpg" alt="img_electro" /></a>
+            <p>A la découverte de l'électronique, des circuits électroniques, de l'automatique... Bienvenue dans le
+                monde
+                microscopique ! Non il n'y a aucun risque ;).</p>
+            <ul class="actions special">
+            </ul>
+        </article>
+        <article>
+            <header> <span class="date">Août 22, 2020</span>
+                <h2><a href="pages/informatique/informatique.php">Informatique</a></h2>
+            </header> <a href="pages/informatique/informatique.php" class="image fit"><img
+                    src="images/Informatique/code_bg.jpg"> </a>
+        </article>
+    </section>
+    <section class="posts">
+        <article>
+            <header> <span class="date">Août 24, 2020</span>
+                <h2><a href="pages/Electronique/electronique.php">Electronique</a></h2>
+            </header> <a href="pages/Electronique/electronique.php" class="image fit"><img
+                    src="images/Electronique/carte-electronique.jpg" alt="img_electro" /></a>
+            <p>A la découverte de l'électronique, des circuits électroniques, de l'automatique... Bienvenue dans le
+                monde
+                microscopique ! Non il n'y a aucun risque ;).</p>
+            <ul class="actions special">
+            </ul>
+        </article>
+        <article>
+            <header> <span class="date">Août 22, 2020</span>
+                <h2><a href="pages/informatique/informatique.php">Infoe</a></h2>
+            </header> <a href="pages/informatique/informatique.php" class="image fit"><img
+                    src="images/Informatique/code_bg.jpg"> </a>
+        </article>
+    </section>
+    <section class="posts">
+        <article>
+            <header> <span class="date">Août 24, 2020</span>
+                <h2><a href="pages/Electronique/electronique.php">Electroue</a></h2>
+            </header> <a href="pages/Electronique/electronique.php" class="image fit"><img
+                    src="images/Electronique/carte-electronique.jpg" alt="img_electro" /></a>
+            <p>A la découverte de l'électronique, des circuits électroniques, de l'automatique... Bienvenue dans le
+                monde
+                microscopique ! Non il n'y a aucun risque ;).</p>
+            <ul class="actions special">
+            </ul>
+        </article>
+        <article>
+            <header> <span class="date">Août 22, 2020</span>
+                <h2><a href="pages/informatique/informatique.php">Infrmatique</a></h2>
+            </header> <a href="pages/informatique/informatique.php" class="image fit"><img
+                    src="images/Informatique/code_bg.jpg"> </a>
+        </article>
+    </section>
+
+
+
 </body>
 
 <!-- Footer -->
 <footer>
-    <h1><a href="mailto:jordan.berger@ynov.com" title="Envoie-moi un petit message">Me contacter</a></h1>
+    <ul>
+        <li><a href="mailto:jordan.berger@ynov.com" title="Envoie-moi un petit message">Me contacter</a>
+        </li>
+    </ul>
 </footer>
 
 </html>
