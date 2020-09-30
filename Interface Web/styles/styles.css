@@ -56,6 +56,10 @@ ul{
 li {
     float: left;
 }
+li img{
+    width: 16px;
+    height: 16px;
+}
 li a{
     display: block;
     color: black;
