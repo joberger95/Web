@@ -16,21 +16,26 @@
 <body>
     <!--Header-->
     <header>
-        <img src="images/KORRA_logo.png" alt="Logo de Korra, à retravailler" title="Korra">
-        <p>Bienvenue sur mon site! Je suis Jordan BERGER, étudiant de l'école d'ingénieur Ynov Campus BORDEAUX.
-            <br />Actuellement en cursus Mastère Expert Mécatronique et à la recherche de toujours plus de
-            connaissances,
-            <br />je vous présente humblement mon site internet qui vous permettra de découvrir qui je suis et suivre
-            mes
-            projets en temps réel!</p>
+        <div class="div-categoryContainer">
+            <img src="images/KORRA_logo.png" alt="Logo de Korra, à retravailler" title="Korra" class="picture-left">
+            <div class="paragraph-right">
+                <p>Bienvenue sur mon site! Je suis Jordan BERGER, étudiant de l'école d'ingénieur Ynov Campus
+                    BORDEAUX.
+                    <br /><br />Actuellement en cursus Mastère Expert Mécatronique et à la recherche de toujours plus de
+                    connaissances,
+                    <br /><br />je vous présente humblement mon site internet qui vous permettra de découvrir qui je
+                    suis et suivre mes projets en temps réel!</p>
+            </div>
+        </div>
         <nav>
             <ul>
-                <li><a href="#">Accueil</a></li>
-                <li><a href="#">A propos</a></li>
-                <li><a href="#">Parcours</a></li>
+                <li>Accueil</li>
+                <li>A propos</li>
+                <li>Parcours</li>
             </ul>
         </nav>
     </header>
+
     <!--Articles-->
     <section id="section">
         <article class="article">

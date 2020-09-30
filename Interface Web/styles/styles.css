@@ -1,4 +1,10 @@
 /* Sheet style */
+/*************************
+Border vision
+    border-width: 5px;
+    border-style: dashed;
+    border-color: black; 
+*************************/
 
 /*Personal font */
 @font-face{
@@ -10,46 +16,23 @@
     src: url("polices/league-spartan/LeagueSpartan-Bold.otf");
 }
 
-
-/* Header style*/
-head{
-    font-family: PoliceSpartant, sans-serif;
-    font-size: 1em;
-    color:#555555;
-}
-img{
-    float: left;
-}
-
-
-/*General body style*/
+/*General body parameter */
 body{
-    font-family: PoliceRoboto, sans-serif;
-    margin: auto;
-    width: 70%;
     background: fixed;
 }
 
-/*Navigation menu*/
-nav a{
-    font-family: PoliceSpartan, sans-serif;
-    font-size: 1.3em;
-    text-decoration: none;
-    color: #555555;
+/*Header parameter*/
+.div-categoryContainer{
+    padding: 5% 5% 5% 20%;
 }
-nav a:hover{
-    color: darkgoldenrod;
+.picture-left{
+    float: left;
+    margin-right: 2%;
 }
-nav ul{
-    list-style-type: none;
-    display: flex;
-    flex-direction: row;  
-    justify-content: space-around; 
-    background-color: aliceblue;
+  
+.paragraph-right {
+  margin-top : 50px;
+  padding-left: 5%;
 }
 
-/*Sheet content*/
-aside{
-    display: block;
-
-}
+/* Navigation menu */
