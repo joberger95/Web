@@ -24,6 +24,7 @@ body{
 /*Header parameter*/
 .div-categoryContainer{
     padding: 5% 5% 5% 20%;
+    position: initial;
 }
 .picture-left{
     float: left;
@@ -36,3 +37,33 @@ body{
 }
 
 /* Navigation menu */
+nav{
+    margin-bottom: auto;
+    position: -webkit-sticky;
+    position: sticky;
+    top:0;
+}
+ul{
+    list-style: none;
+    background-color: #d8d8d8;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    width: 100%;
+}
+li {
+    float: left;
+}
+li a{
+    display: block;
+    color: black;
+    text-align: center;
+    text-decoration: none;
+    padding: 14px 16px;
+}
+li a:hover:not(.active){
+    background-color: darkgrey;
+}
+.active{
+    background-color: darkorange;
+}

@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="fr">
 
-<!--Head-->
+<!-- Head -->
 
 <head>
     <meta charset="UTF-8">
@@ -11,10 +11,10 @@
     <title>Korra - accueil</title>
 </head>
 
-<!--Body-->
+<!-- Body -->
 
 <body>
-    <!--Header-->
+    <!-- Header -->
     <header>
         <div class="div-categoryContainer">
             <img src="images/KORRA_logo.png" alt="Logo de Korra, à retravailler" title="Korra" class="picture-left">
@@ -27,54 +27,20 @@
                     suis et suivre mes projets en temps réel!</p>
             </div>
         </div>
-        <nav>
-            <ul>
-                <li>Accueil</li>
-                <li>A propos</li>
-                <li>Parcours</li>
-            </ul>
-        </nav>
     </header>
-
-    <!--Articles-->
-    <section id="section">
-        <article class="article">
-            <header>Kernell</header>
-            <p>Génération d'une image système embarqué</p>
-        </article>
-        <articicle class="article">
-            <header>Kernell</header>
-            <p>Génération d'une image système embarqué</p>
-            </article>
-    </section>
+    <!-- Navigation menu -->
+    <nav>
+        <ul>
+            <li><a class="active" href="index.hmtl">Korra</a></li>
+            <li><a href="pages/Parcours.html">Mon parcours</a></li>
+            <li><a href="pages/Projets.html">Projets</a></li>
+        </ul>
+    </nav>
 </body>
 
-<!--Footer-->
+<!-- Footer -->
 <footer>
     <h1><a href="mailto:jordan.berger@ynov.com" title="Envoie-moi un petit message">Me contacter</a></h1>
 </footer>
 
 </html>
-
-<!---------------------------------------------------------------------------------------------------------------->
-<!---------------------------------------------------------------------------------------------------------------->
-<!---------------------------------------------------------------------------------------------------------------->
-<section class="posts">
-    <article>
-        <header> <span class="date">Août 24, 2020</span>
-            <h2><a href="pages/Electronique/electronique.php">Electronique</a></h2>
-        </header> <a href="pages/Electronique/electronique.php" class="image fit"><img
-                src="images/Electronique/carte-electronique.jpg" alt="img_electro" /></a>
-        <p>A la découverte de l'électronique, des circuits électroniques, de l'automatique... Bienvenue dans le monde
-            microscopique ! Non il n'y a aucun risque ;).</p>
-        <ul class="actions special">
-            <li><a href="pages/Electronique/electronique.php" class="button">Consulter</a></li>
-        </ul>
-    </article>
-    <article>
-        <header> <span class="date">Août 22, 2020</span>
-            <h2><a href="pages/informatique/informatique.php">Informatique</a></h2>
-        </header> <a href="pages/informatique/informatique.php" class="image fit"><img
-                src="images/Informatique/code_bg.jpg" </a>
-    </article>
-</section>
