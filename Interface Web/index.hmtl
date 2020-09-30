@@ -1,12 +1,21 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
+
+<!--Head-->
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles/styles.css">
-    <title>Korra -> A propos</title>
-    <div id="headsheet">
+    <link rel="shortcut icon" href="">
+    <title>Korra - accueil</title>
+</head>
+
+<!--Body-->
+
+<body>
+    <!--Header-->
+    <header>
         <img src="images/KORRA_logo.png" alt="Logo de Korra, à retravailler" title="Korra">
         <p>Bienvenue sur mon site! Je suis Jordan BERGER, étudiant de l'école d'ingénieur Ynov Campus BORDEAUX.
             <br />Actuellement en cursus Mastère Expert Mécatronique et à la recherche de toujours plus de
@@ -14,40 +23,53 @@
             <br />je vous présente humblement mon site internet qui vous permettra de découvrir qui je suis et suivre
             mes
             projets en temps réel!</p>
-    </div>
-</head>
-
-<body>
-    <!-- Header-->
-    <div id="nav">
-        <header>
-            <nav>
-                <ul>
-                    <li><a href="#">Accueil</a></li>
-                    <li><a href="#">A propos</a></li>
-                    <li><a href="#">Parcours</a></li>
-                </ul>
-            </nav>
-        </header>
-    </div>
-    <!-- Body-->
-    <div class="aside">
-        <section>
-            <aside>
-                <h1>Projet Kernell</h1>
-                <p>Projet d'étude visant à créer une image système embarquée!</p>
-            </aside>
-            <aside>
-                <h1>Projet Deep-Learning</h1>
-                <p>Projet d'initiation à l'intelligence artificielle embarquée sur drône.</p>
-            </aside>
-        </section>
-    </div>
-    <!-- Footer-->
-    <footer>
-        <h1><a href="mailto:jordan.berger@ynov.com" title="Envoie-moi un petit message">Me contacter</a></h1>
-    </footer>
-
+        <nav>
+            <ul>
+                <li><a href="#">Accueil</a></li>
+                <li><a href="#">A propos</a></li>
+                <li><a href="#">Parcours</a></li>
+            </ul>
+        </nav>
+    </header>
+    <!--Articles-->
+    <section id="section">
+        <article class="article">
+            <header>Kernell</header>
+            <p>Génération d'une image système embarqué</p>
+        </article>
+        <articicle class="article">
+            <header>Kernell</header>
+            <p>Génération d'une image système embarqué</p>
+            </article>
+    </section>
 </body>
 
+<!--Footer-->
+<footer>
+    <h1><a href="mailto:jordan.berger@ynov.com" title="Envoie-moi un petit message">Me contacter</a></h1>
+</footer>
+
 </html>
+
+<!---------------------------------------------------------------------------------------------------------------->
+<!---------------------------------------------------------------------------------------------------------------->
+<!---------------------------------------------------------------------------------------------------------------->
+<section class="posts">
+    <article>
+        <header> <span class="date">Août 24, 2020</span>
+            <h2><a href="pages/Electronique/electronique.php">Electronique</a></h2>
+        </header> <a href="pages/Electronique/electronique.php" class="image fit"><img
+                src="images/Electronique/carte-electronique.jpg" alt="img_electro" /></a>
+        <p>A la découverte de l'électronique, des circuits électroniques, de l'automatique... Bienvenue dans le monde
+            microscopique ! Non il n'y a aucun risque ;).</p>
+        <ul class="actions special">
+            <li><a href="pages/Electronique/electronique.php" class="button">Consulter</a></li>
+        </ul>
+    </article>
+    <article>
+        <header> <span class="date">Août 22, 2020</span>
+            <h2><a href="pages/informatique/informatique.php">Informatique</a></h2>
+        </header> <a href="pages/informatique/informatique.php" class="image fit"><img
+                src="images/Informatique/code_bg.jpg" </a>
+    </article>
+</section>

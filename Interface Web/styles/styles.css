@@ -12,27 +12,25 @@
 
 
 /* Header style*/
-#headsheet{
+head{
     font-family: PoliceSpartant, sans-serif;
     font-size: 1em;
     color:#555555;
 }
+img{
+    float: left;
+}
 
 
-
-/*Body style*/
+/*General body style*/
 body{
     font-family: PoliceRoboto, sans-serif;
     margin: auto;
     width: 70%;
+    background: fixed;
 }
 
 /*Navigation menu*/
-#nav{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-}
 nav a{
     font-family: PoliceSpartan, sans-serif;
     font-size: 1.3em;
@@ -40,9 +38,18 @@ nav a{
     color: #555555;
 }
 nav a:hover{
-    font-size: 1.4em;
-    overflow: visible;
+    color: darkgoldenrod;
 }
 nav ul{
     list-style-type: none;
+    display: flex;
+    flex-direction: row;  
+    justify-content: space-around; 
+    background-color: aliceblue;
+}
+
+/*Sheet content*/
+aside{
+    display: block;
+
 }
