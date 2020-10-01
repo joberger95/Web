@@ -21,6 +21,13 @@ body{
     background: fixed;
     font-family: PoliceRoboto;
 }
+strong{
+    font-family: PoliceSpartan, sans-serif;
+}
+em{
+    font-style: italic;
+}
+
 
 /* Header */
 .div-categoryContainer{
@@ -75,6 +82,21 @@ nav li a:hover:not(.active){
 }
 
 /* Sections */
+section .div-categoryContainer{
+    padding: 5% 5% 5% 20%;
+    position: initial;
+}
+section .picture-left{
+    float: left;
+    margin-right: 2%;
+}  
+section .paragraph-right {
+    font-family: PoliceRoboto;
+    margin-top : 50px;
+    padding-left: 5%;
+}
+
+
 
 
 /* Footer */
