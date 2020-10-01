@@ -97,6 +97,12 @@ table td{
 td, tr{
     padding :15px;
 }
+table th{
+    font-family: RotoboSpartan;
+}
+table img{
+    vertical-align: middle;
+}
 
 /* Footer */
 footer ul{
