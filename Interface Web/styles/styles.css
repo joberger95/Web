@@ -32,7 +32,6 @@ em{
 /* Header */
 .div-categoryContainer{
     padding: 5% 5% 5% 20%;
-    position: initial;
 }
 .picture-left{
     float: left;
@@ -74,32 +73,54 @@ nav li a{
     text-decoration: none;
     padding: 14px 16px;
 }
-.active{
-    background-color: darkorange;
-}
 nav li a:hover:not(.active){
     background-color: darkgrey;
 }
+.active{
+    background-color: darkorange;
+}
 
 /* Sections */
-section .div-categoryContainer{
-    padding: 5% 5% 5% 20%;
-    position: initial;
+table{
+    margin: 5% 5% 5% 7.5%;
 }
-section .picture-left{
-    float: left;
-    margin-right: 2%;
-}  
-section .paragraph-right {
-    font-family: PoliceRoboto;
-    margin-top : 50px;
-    padding-left: 5%;
+table caption{
+    font-family: PoliceSpartan;
+    text-align: left;
 }
-
-
-
+table, tr {
+  text-align: center;
+}
+table td{
+    text-align: left;
+}
+td, tr{
+    padding :15px;
+}
 
 /* Footer */
-footer h1{
+footer ul{
+    list-style: none;
+    background-color: #d8d8d8;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    width: 100%;
+}
+footer li {
     float: left;
+}
+footer li img{
+    width: 16px;
+    height: 16px;
+}
+footer li a{
+    display: block;
+    color: black;
+    text-align: center;
+    text-decoration: none;
+    padding: 14px 16px;
+}
+footer li a:hover{
+    background-color: darkgrey;
 }
