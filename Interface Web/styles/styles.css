@@ -45,7 +45,7 @@ nav{
     position: sticky;
     top:0;
 }
-ul{
+nav ul{
     list-style: none;
     background-color: #d8d8d8;
     margin: 0;
@@ -53,26 +53,29 @@ ul{
     overflow: hidden;
     width: 100%;
 }
-li {
+nav li {
     float: left;
 }
-li img{
+nav li img{
     width: 16px;
     height: 16px;
 }
-li a{
+nav li a{
     display: block;
     color: black;
     text-align: center;
     text-decoration: none;
     padding: 14px 16px;
 }
-li a:hover:not(.active){
-    background-color: darkgrey;
-}
 .active{
     background-color: darkorange;
 }
+nav li a:hover:not(.active){
+    background-color: darkgrey;
+}
+
+/* Sections */
+
 
 /* Footer */
 footer h1{
