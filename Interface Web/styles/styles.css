@@ -87,6 +87,7 @@ table{
 table caption{
     font-family: PoliceSpartan;
     text-align: left;
+    font-size:  1.8em;
 }
 table, tr {
   text-align: center;
